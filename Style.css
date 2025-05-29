@@ -1,0 +1,48 @@
+body {
+  h1 {
+    font-family: "Manrope", sans-serif; /* Hoặc font bạn muốn */
+    font-size: 2rem; /* Điều chỉnh kích thước */
+    color: #1d1e1f; /* Điều chỉnh màu */
+    font-weight: 700; /* Điều chỉnh độ đậm */
+    margin-top: 2cap;
+    a {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: #1d1e1f;
+}
+  }
+  h2 {
+    font-family: "Manrope", sans-serif; /* Hoặc font bạn muốn */
+    font-size: 1.5rem; /* Điều chỉnh kích thước */
+    color: #1d1e1f; /* Điều chỉnh màu */
+    font-weight: 70; /* Điều chỉnh độ đậm */
+    margin-top: 4cap;
+    margin-left: 5cap;
+    line-height: 2.5cap;
+  }
+  margin-left: 8cap;
+}
+
+a {
+  text-decoration: none; /* Bỏ gạch chân */
+  color: #1d1e1f;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
